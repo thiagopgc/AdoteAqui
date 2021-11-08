@@ -7,8 +7,11 @@
 body{
 	width: 100%;
 	height: 100%;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 	background-image: url("https://i.pinimg.com/originals/42/82/aa/4282aae2126eb185702c95ec71e1a32e.jpg");
 }
+
 
 
 .conteiner1{
