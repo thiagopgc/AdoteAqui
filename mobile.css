@@ -1,0 +1,17 @@
+@media(max-width: 700px ){
+.titulo header h1{
+        display: none;
+    }
+
+.lista {
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+
+.midiamobile{
+display: inline-flex;
+flex-direction: column;
+}
+
+}
