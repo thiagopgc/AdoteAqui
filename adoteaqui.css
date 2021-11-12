@@ -5,11 +5,12 @@
 }
 
 body{
-	width: 100%;
-	height: 100%;
+display: flex;
+flex-direction: column;
+width: 100%;
+height: 100%;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-	background-image: url("https://i.pinimg.com/originals/42/82/aa/4282aae2126eb185702c95ec71e1a32e.jpg");
+background-image: url("https://i.pinimg.com/originals/42/82/aa/4282aae2126eb185702c95ec71e1a32e.jpg");*/
 }
 
 
@@ -34,6 +35,11 @@ ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+}
+
+.lista{
+
+	color: inherit;
 }
 
 li a{
@@ -66,8 +72,7 @@ font-size: 40px;
 }
 
 .texto{
-width: 100%px;
-height: 300px;
+width: 100%;
 display: flex;
 padding: 10px;
 justify-content: center;
@@ -75,9 +80,8 @@ align-items: center;
 }
 
 .pqadotar{
-background-color:tomato;
-width: 500px;
-height: 250px;
+background-color:#ff9247b5;
+width: 95%;
 font-size: 25px;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
@@ -91,20 +95,8 @@ justify-content: space-evenly;
 padding: 20px 0 0 ;
 }
 
-.coluna2{
-display: flex;
-width: 100%;
-justify-content: space-evenly;
-padding: 20px 0 0 ;
-}
 
 
-.coluna3{
-	display: flex;
-    width: 100%;
-	justify-content: space-evenly;
-	padding: 20px 0 0 ;
-}
 
 
 #fotos{
@@ -127,30 +119,30 @@ border-color: darkgreen;
 
 .rodapé{
 width: 100%;
-height: 150px;
+height: 200px;
 background-color: black;
 display: flex;
-
-}
-
-.textopé{
-display: flex;
-justify-content: center;
+flex-direction: column;
 align-items: center;
-margin-left: 350px;
+justify-content: space-between;
 }
 
+a img{
 
-.logo img{
-height: 30px;
-width: auto;
-margin-top: 60px;
-margin-left: 20px;
+	width: 30px;
+	height: 30px;
 }
 
-.logo img:hover{
+.imagempe{
 
-	transform: scale(1.3);
+	width: 15%;
+	height: 100px;
+}
+
+.geral{
+display: flex;
+flex-direction: column;
+width: 100%;
 
 }
 
