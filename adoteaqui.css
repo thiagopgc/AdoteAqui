@@ -133,10 +133,16 @@ a img{
 	height: 30px;
 }
 
+a img:hover{
+
+	transform: scale(1.2);
+}
+
 .imagempe{
 
 	width: 15%;
 	height: 100px;
+
 }
 
 .geral{
